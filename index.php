@@ -1,6 +1,6 @@
 <?php
-    require_once "Medicine.php";
-    require_once "Cart.php";
+    require_once "medicine.php";
+    require_once "cart.php";
 ?>
 
 <!DOCTYPE html>
@@ -37,7 +37,7 @@
         $cart->addToCart($medicine[1]);
         $cart->viewCart();
         $cart->computeTotal();
-        
+
     ?>
 </body>
 </html>
